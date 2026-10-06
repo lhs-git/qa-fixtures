@@ -15,3 +15,5 @@ Fixtures:
 - `/this-page-does-not-exist` — expected HTTP 404 from the static host.
 
 GitHub Pages cannot reliably produce arbitrary HTTP 403 or redirect-loop responses from static files. Those cases need a small serverless or HTTP fixture service; this repository only provides the static fixtures above.
+
+Deployment is configured through GitHub Actions and GitHub Pages.
